@@ -1,13 +1,27 @@
 public class Creeper extends Enemy
 {
+    //Instance Variables
     boolean isAgressive = true;
 
+    //Constructors
     public Creeper(String name, String weapon, int lives, int health, boolean isAgressive)
     {
         super(name, weapon, lives, health);
         this.isAgressive = isAgressive;
     }//end full constructor with  call to super
 
+    //Getters and Setters
+    public boolean getIsAgressive()
+    {
+        return isAgressive;
+    }//end getIsAgressive
+
+    public void setIsAgressive(boolean agressive)
+    {
+        isAgressive = agressive;
+    }//end setIsAgressive
+
+    //Brain Methods
     @Override
     public void Attack(int damage)
     {
@@ -17,6 +31,8 @@ public class Creeper extends Enemy
             System.out.println("Your cat saved you");
     }//end Overridden Attack method
 
+
+    //ToString
     @Override
     public String toString()
     {

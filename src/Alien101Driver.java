@@ -9,7 +9,7 @@ public class Alien101Driver
         Klingon burtog = new Klingon("Burtog", "bat'leth", 1, 1000, false);
 
 //        System.out.println(joe);
-////        System.out.println(generic);
+//       System.out.println(generic);
         System.out.println(creepie);
 //        System.out.println(worf);
 //        System.out.println(burtog);
