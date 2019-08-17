@@ -15,7 +15,7 @@ public class Creeper extends Enemy
             health -= damage;
         else
             System.out.println("Your cat saved you");
-    }//end method Attack
+    }//end Overridden Attack method
 
     @Override
     public String toString()
@@ -27,5 +27,5 @@ public class Creeper extends Enemy
                 ", name='" + name + '\'' +
                 ", weapon='" + weapon + '\'' +
                 '}';
-    }
+    }// end toString
 }//end Creeper class

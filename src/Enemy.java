@@ -24,7 +24,7 @@ public class Enemy implements Actor
     public void Attack(int damage)
     {
 
-    }
+    }//end Overridden Attack method
 
     @Override
     public String toString()
@@ -35,5 +35,5 @@ public class Enemy implements Actor
                 ", name='" + name + '\'' +
                 ", weapon='" + weapon + '\'' +
                 '}';
-    }
+    }//end toString
 }//end Enemy class

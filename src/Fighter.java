@@ -53,6 +53,6 @@ public class Fighter implements Actor
                 ", name='" + name + '\'' +
                 ", weapon='" + weapon + '\'' +
                 '}';
-    }
+    }//end toString
 
 }// end object class Fighter
